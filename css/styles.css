@@ -28,10 +28,17 @@ html {
 .w3-tooltip, .w3-display-container {
   position: relative;
 }
-.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-middle{position:absolute;top:45%;left:50%;transform:translate(-50%,-50%)}
 .w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
-.w3-jumbo2{font-size:30px!important}
-
+.w3-jumbo2{text-align: center}
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  right: 16px;
+  font-size: 18px;
+  text-align: justify;
+}
 .centrarImagen
 {
  text-align:center;
@@ -39,6 +46,8 @@ html {
 }
 
 .barra-menu {
+  font-family: "Audiowide", sans-serif;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
   align-items: center;

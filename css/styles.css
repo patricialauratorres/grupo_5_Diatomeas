@@ -28,7 +28,7 @@ html {
 .w3-tooltip, .w3-display-container {
   position: relative;
 }
-.w3-display-middle{position:absolute;top:45%;left:50%;transform:translate(-50%,-50%)}
+.w3-display-middle{position:absolute;top:45%;left:35%;transform:translate(-20%,-55%)}
 .w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
 .w3-jumbo2{text-align: center}
 .bottomleft {

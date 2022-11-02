@@ -20,7 +20,21 @@
 html {
   font-size: 62.5%;
 }
+#contenedor-intro {
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+#parrafos-intro{
+  margin-bottom: 1rem;
+}
 
+.texto-articulo {
+    text-align: justify;
+    font-size: 24px;
+}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
 
 .w3-text-white, .w3-hover-text-white:hover {
   color: #fff!important;
@@ -154,6 +168,8 @@ main {
   margin: 2rem;
   color: #1f272b;
   font-weight: 300;
+  text-align: center;
+  font-family: "Audiowide", sans-serif;
 }
 
 .secciones-principales {
@@ -222,6 +238,12 @@ main {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+.video {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  
+  }
 /* Contacts section ends */
 footer {
   background: #343a40;

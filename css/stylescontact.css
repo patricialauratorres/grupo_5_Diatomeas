@@ -1,0 +1,84 @@
+
+
+:root {
+    --font: 'Oxygen', sans-serif;
+    --primary: #42E2B8;
+    --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+    --black: black;
+  }
+  .form {
+    max-inline-size: 550px;
+    margin: auto;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #0F0A0A88;
+  }
+  
+  
+  .contact {
+    margin-block-end: 5em;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  #mailFacultad {
+    opacity: 0;
+  }
+
+  /* MEDIAQUERY PARA RESPONSIVE */
+
+@media (max-width: 768px) {
+    #img-portada-desktop {
+        display: none;
+    }
+    #img-portada-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    #img-portada-desktop {
+        display: none;
+    }
+    #img-portada-mobile {
+        display: block;
+    }
+    #frase-portada {
+        font-size: 3rem;
+    }
+    #boton-portada {
+        font-size: 1.8rem;
+    }
+    .product-card {
+        width: 80%;
+        max-width: 50rem;
+        padding-top: 5rem;
+    }
+}
